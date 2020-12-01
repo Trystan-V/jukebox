@@ -1,5 +1,6 @@
 package co.simplon.jukebox.controller;
 
+
 import co.simplon.jukebox.Artist;
 import co.simplon.jukebox.service.ArtistService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/jukebox")
-public class ArtistController<ArtistService> {
+public class ArtistController {
 
     @Autowired
     ArtistService service;
